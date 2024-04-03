@@ -1,3 +1,4 @@
+import img from "../images/sortboxs-logo1.png"
 const sections = [
   {
     title: "HR & Payroll",
@@ -49,7 +50,7 @@ const Footer = () => {
           <div className="col-span-1 pt-8 md:pt-2 ">
             <p className="font-bold">
               <img
-                src="/src/images/sortboxs-logo1.png"
+                src={img}
                 alt=""
                 className="w-48"
               />
