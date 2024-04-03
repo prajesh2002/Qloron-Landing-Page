@@ -99,7 +99,7 @@
 import img from "../images/laptop-icon.svg"
 const Demo = () => {
   return (
-    <div className="min-h-96 flex flex-col md:flex-row justify-center text-center mx-5 md:mx-16 lg:mx-32 my-10 items-center space-x-10 space-y-10 md:space-y-0">
+    <div className="min-h-96 flex flex-col md:flex-row justify-center text-center mx-5 md:mx-16 lg:mx-32 my-10 items-center md:space-x-10 space-y-10 md:space-y-0">
       <div className="left flex my-auto mx-auto justify-center md:w-1/2">
         {/* <div className="xl:h-80 xl:w-80 md:w-60 md:h-60  h-40 w-40 bg-gradient-to-br to-[#e6d6f9] from-[#5c4887]  rounded-full">
           <div>
