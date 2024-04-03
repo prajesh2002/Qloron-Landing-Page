@@ -96,6 +96,7 @@
 // // //
 
 // //NEWEST
+import img from "../images/laptop-icon.svg"
 const Demo = () => {
   return (
     <div className="min-h-96 flex flex-col md:flex-row justify-center text-center mx-5 md:mx-16 lg:mx-32 my-10 items-center space-x-10 space-y-10 md:space-y-0">
@@ -111,7 +112,7 @@ const Demo = () => {
             />
           </div>
         </div> */}
-        <img src="/src/images/laptop-icon.svg" alt="not found" />
+        <img src={img} alt="not found" />
       </div>
       <div className="right lg:text-left text-center md:w-1/2">
         {/* lg:w-3/4 */}
