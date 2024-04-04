@@ -1,19 +1,33 @@
 import "./App.css";
-import Clients from "./components/Clients";
-import Demo from "./components/Demo";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Payroll1 from "./components/Payroll1";
+import Features from "./components/Features";
+import Mobiles from "./components/Mobiles";
+import Attendance from "./components/Attendance";
+import Products from "./components/Products";
+import Benefits from "./components/Benefits";
 import Hroperations from "./components/Hroperations";
-import Newsletter from "./components/Newsletter";
-import Payroll from "./components/Payroll";
-// import Products from "./components/Products";
+import Payroll2 from "./components/Payroll2";
+import Clients from "./components/Clients";
 import Reviews from "./components/Reviews";
+import Demo from "./components/Demo";
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      {/* <Products /> */}
+      <Navbar />
+      <Home />
+      <Payroll1 />
+      <Features />
+      <Mobiles />
+      <Attendance />
+      <Products />
+      <Benefits />
       <Hroperations />
-      <Payroll />
+      <Payroll2 />
       <Clients />
       <Reviews />
       <Demo />

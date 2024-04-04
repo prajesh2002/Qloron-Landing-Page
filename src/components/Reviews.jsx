@@ -1,10 +1,10 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bg from "../images/reviews-bg.png";
-import img from "../images/customer.png";
-import star1 from "../images/star-filled.png";
-import star2 from "../images/star-empty.png";
+import bg from "../images/Reviews/reviews-bg.png";
+import img from "../images/Reviews/customer.png";
+import star1 from "../images/Reviews/star-filled.png";
+import star2 from "../images/Reviews/star-empty.png";
 
 const Reviews = () => {
   const settings = {

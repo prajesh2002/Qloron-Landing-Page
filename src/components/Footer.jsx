@@ -1,4 +1,4 @@
-import img from "../images/sortboxs-logo1.png"
+import img from "../images/sortboxs-logo.png"
 const sections = [
   {
     title: "HR & Payroll",

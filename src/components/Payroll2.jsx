@@ -38,10 +38,10 @@
 // export default Payroll;
 
 import { useState } from "react";
-import img from "../images/payroll.png";
-import bg from "../images/payroll-bg.png";
+import img from "../images/Payroll2/payroll.png";
+import bg from "../images/Payroll2/payroll-bg.png";
 
-const Payroll = () => {
+const Payroll2 = () => {
   const [showMore, setShowMore] = useState(false);
 
   const handleViewMore = () => {
@@ -154,4 +154,4 @@ const Payroll = () => {
   );
 };
 
-export default Payroll;
+export default Payroll2;

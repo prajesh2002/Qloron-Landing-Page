@@ -8,63 +8,64 @@ body {
 }
 
 /* ANIMATIONS FOR IMAGES  */
- 
- 
+
+
 @keyframes slideInLeft {
-    from{
-        transform: translateX(-400px);
-    }
- 
-    to{
-        transform: translateX(0);
-    }
+  from {
+    transform: translateX(-400px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
- 
-.slideInLeft{
-    animation: slideInLeft 0.7s ease;
+
+.slideInLeft {
+  animation: slideInLeft 0.7s ease;
 }
- 
+
 @keyframes slideInRight {
-    from{
-        transform: translateX(400px);
-    }
- 
-    to{
-        transform: translateX(0);
-    }
+  from {
+    transform: translateX(400px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
- 
-.slideInRight{
-    animation: slideInRight 0.7s ease;
+
+.slideInRight {
+  animation: slideInRight 0.7s ease;
 }
- 
+
 @keyframes slideInTop {
-    from{
-        transform: translateY(-150px);
-    }
- 
-    to{
-        transform: translateY(0);
-    }
+  from {
+    transform: translateY(-150px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
- 
-.slideInTop{
-    animation: slideInTop 0.7s ease;
+
+.slideInTop {
+  animation: slideInTop 0.7s ease;
 }
- 
+
 @keyframes slideInBottom {
-    from{
-        transform: translateY(150px);
-    }
- 
-    to{
-        transform: translateY(100px);
-    }
- 
-    to{
-        transform: translateY(0);
-    }
+  from {
+    transform: translateY(150px);
+  }
+
+  to {
+    transform: translateY(100px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
+
 /*  */
 /* .payroll-item {
   position: relative;
@@ -180,47 +181,175 @@ body {
   /* Content color after transition */
 }
 
-/*  */
-
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.benefits_css::hover {
+  color: white !important;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* SAHIL */
+/* .welcome{
+  background-image: url('./images/welcome_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover; 
+} */
+
+/* .payroll{
+  background-image: url('./images/wave1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+} */
+
+
+.features{
+  background-image: url('./images/Features/feature_bg.png');
+  /* background-position: center; */
+  background-position-x: center;
+  background-position-y: 5.2rem;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 
-@keyframes logo-spin {
+/* .man_style{
+  width: 80%;
+} */
+/* 
+.mobile_css{
+  background-image: url('./images/sortbox_bg.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  object-fit: cover;
+} */
+
+
+
+/* ANIMATIONS FOR IMAGES  */
+
+
+@keyframes slideInLeft {
   from {
-    transform: rotate(0deg);
+    transform: translateX(-400px);
   }
+
   to {
-    transform: rotate(360deg);
+    transform: translateX(0);
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.slideInLeft {
+  animation: slideInLeft 0.7s ease;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(400px);
+  }
+
+  to {
+    transform: translateX(0);
   }
 }
 
-.card {
-  padding: 2em;
+.slideInRight {
+  animation: slideInRight 0.7s ease;
 }
 
-.read-the-docs {
-  color: #888;
+@keyframes slideInTop {
+  from {
+    transform: translateY(-150px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.slideInTop {
+  animation: slideInTop 0.7s ease;
+}
+
+@keyframes slideInBottom {
+  from {
+    transform: translateY(150px);
+  }
+
+  to {
+    transform: translateY(100px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.slideInBottom {
+  animation: slideInBottom 0.7s ease;
+}
+
+.fadeInTop {
+  -webkit-animation: fadeInTop 1s both;
+  -moz-animation: fadeInTop 1s both;
+  -o-animation: fadeInTop 1s both;
+  animation: fadeInTop 1s both;
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.shutter {
+  /* position: absolute;  */
+  overflow: hidden;
+  animation: shutter 2s linear forwards;
+}
+
+@keyframes shutter {
+  0% {
+    width: 0px;
+    height: 0px;
+  }
+
+  30% {
+    width: 50px;
+    height: 0px;
+  }
+
+  60% {
+    width: 50px;
+    height: 80px;
+  }
+}
+
+
+/* Benefits section  */
+
+.benefits_head1::before {
+  color: orange;
+}
+
+.benefits_head1::after {
+  color: white;
+}
+
+.benefits_text::before {
+  color: black;
+}
+
+.benefits_text::after {
+  color: white;
+}
+
+/* .benefits_css:hover {
+  color: white !important;
+  transition-duration: 3s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
 } */

@@ -103,9 +103,9 @@
 // //------------
 
 import { useRef, useEffect, useState } from "react";
-import bg from "../images/hr-bg.png";
-import img1 from "../images/hr1.png";
-import img2 from "../images/hr2.png";
+import bg from "../images/HrOperations/hr-bg.png";
+import img1 from "../images/HrOperations/hr1.png";
+import img2 from "../images/HrOperations/hr2.png";
 
 const Hroperations = () => {
   const [isVisible, setIsVisible] = useState(false);

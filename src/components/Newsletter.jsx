@@ -1,10 +1,10 @@
-// import bg from "../images/newsletter-bg.png";
-import head_bg from "../images/newsletter-head-bg.png";
+// import bg from "../images/Newsletter/newsletter-bg.png";
+import head_bg from "../images/Newsletter/newsletter-head-bg.png";
 const Newsletter = () => {
   return (
     // #3e315e
     // #31264a
-    <div className="bg-gradient-to-l from-[#3e315e] to-[#654F9D] text-center h-96 place-content-center mx-5 md:mx-16 my-10 rounded-xl relative overflow-hiddenlg:mx-32 overflow-hidden">
+    <div className="bg-gradient-to-l from-[#3e315e] to-[#654F9D] text-center h-96 place-content-center mx-5 md:mx-10 my-10 rounded-xl relative overflow-hidden lg:mx-32">
       {/* <div
       className="text-center h-96 place-content-center mx-5 md:mx-16 my-10 rounded-xl relative overflow-hidden"
       style={{

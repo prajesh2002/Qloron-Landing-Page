@@ -1,5 +1,5 @@
-import img from "../images/client1.png";
-import img2 from "../images/client2.png";
+import img from "../images/Clients/client1.png";
+import img2 from "../images/Clients/client2.png";
 const Clients = () => {
   return (
     <div className="my-10 mx-10 md:mx-16 lg:mx-20">
