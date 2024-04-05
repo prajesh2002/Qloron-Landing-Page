@@ -7,7 +7,7 @@ import customers from "../images/Home/customers.png";
 function Home() {
   return (
     <div
-      className="h-[100%]  md:h-[39rem] w-full  welcome flex flex-col md:flex-row bg-cover"
+      className='h-[100%]  md:h-[39rem] w-full  welcome flex flex-col md:flex-row bg-cover'
       style={{
         backgroundImage: `url(${bg})`,
         backgroundPosition: "center",
