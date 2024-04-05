@@ -7,7 +7,7 @@ import customers from "../images/Home/customers.png";
 function Home() {
   return (
     <div
-      className="h-[100%]  md:h-[39rem] w-full  welcome flex flex-col md:flex-row bg-cover"
+      className='h-[100%]  md:h-[39rem] w-full  welcome flex flex-col md:flex-row bg-cover'
       style={{
         backgroundImage: `url(${bg})`,
         backgroundPosition: "center",
@@ -41,17 +41,17 @@ function Home() {
         <img
           src={payroll}
           alt="payroll"
-          className="hidden md:block md:absolute md:right-10 md:top-44 lg:right-22 lg:top-44 slideInTop sm:w-[6rem] md:w-[8rem] lg:w-[11rem]"
+          className="hidden md:block md:absolute md:right-10 md:top-44 lg:right-36 lg:top-52 slideInTop sm:w-[6rem] md:w-[8rem] lg:w-[11rem]"
         />
         <img
           src={Recognization}
           alt="payroll"
-          className="hidden md:block md:absolute md:left-2 lg:left-8 md:top-24 lg:top-20 slideInTop overflow-hidden sm:w-[6rem] md:w-[8rem] lg:w-[11rem]"
+          className="hidden md:block md:absolute md:left-2 lg:left-32 md:top-24 lg:top-20 slideInTop overflow-hidden sm:w-[6rem] md:w-[8rem] lg:w-[11rem]"
         />
         <img
           src={revenue}
           alt="payroll"
-          className="hidden md:block md:absolute md:left-2 md:bottom-44 lg:left-4 lg:top-96 slideInBottom sm:w-[6rem] md:w-[8rem] lg:w-[11rem]"
+          className="hidden md:block md:absolute md:left-2 md:bottom-44 lg:left-16 lg:top-96 slideInBottom sm:w-[6rem] md:w-[8rem] lg:w-[11rem]"
         />
       </div>
       {/* <img
