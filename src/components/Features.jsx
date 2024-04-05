@@ -104,40 +104,40 @@ function Features() {
             isVisible ? "fadeInTop" : ""
           }`}
         >
-          <div className="p-5 md:p-7">
-            <p className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-[#FC8320]">
-              Time & Attendance &nbsp; &nbsp; &nbsp;
-              <span className="text-black">&#8594;</span>
-            </p>
+          <div className="p-5 md:p-7 ">
+            <a  className="hover:cursor-pointer group-hover:transition duration-150 ease-in hover:px-2 text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-[#FC8320] ">
+              Time & Attendance &nbsp; 
+              <span className="text-black ">&#8594;</span>
+            </a>
             <p className="text-black text-xs sm:text-sm md:text-sm lg:text-md">
               {" "}
               Manage leaves ,track time and pay on time
             </p>
           </div>
           <div className="p-5 md:p-8">
-            <p className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-[#FC8320]">
-              Payroll Software &nbsp; &nbsp; &nbsp;
+            <a  className="hover:cursor-pointer group-hover:transition duration-150 ease-in hover:px-2 text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-[#FC8320]">
+              Payroll Software &nbsp; 
               <span className="text-black">&#8594;</span>
-            </p>
+            </a>
             <p className="text-black text-xs sm:text-sm md:text-sm lg:text-md">
               Automate and pay employees on time and stay compliant
             </p>
           </div>
           <div className="p-5 md:p-8">
-            <p className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-[#FC8320]">
-              Hiring & Onboarding &nbsp; &nbsp; &nbsp;
+            <a  className="hover:cursor-pointer group-hover:transition duration-150 ease-in hover:px-2 text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-[#FC8320]">
+              Hiring & Onboarding &nbsp; 
               <span className="text-black">&#8594;</span>
-            </p>
+            </a>
             <p className="text-black text-xs sm:text-sm md:text-sm lg:text-md">
               {" "}
               Create a great candidate experience before and after joining
             </p>
           </div>
           <div className="p-5 md:p-8">
-            <p className="text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-[#FC8320]">
-              Performance & Culture &nbsp; &nbsp; &nbsp;
+            <a  className="hover:cursor-pointer group-hover:transition duration-150 ease-in hover:px-2 text-md sm:text-lg md:text-xl lg:text-2xl font-bold text-[#FC8320]">
+              Performance & Culture &nbsp; 
               <span className="text-black">&#8594;</span>
-            </p>
+            </a>
             <p className="text-black text-xs sm:text-sm md:text-sm lg:text-md">
               {" "}
               An engaging culture driven by contextual feedback and organization
