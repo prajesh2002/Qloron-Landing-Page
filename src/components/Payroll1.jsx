@@ -81,7 +81,7 @@ function Payroll1() {
   return (
     <div className="max-h-[45rem] bg-white w-full flex flex-col my-5 md:my-10 lg:my-0">
       <div>
-        <img src={dots1} alt="dots1" className="hidden lg:block" />
+        <img src={dots1} alt="dots1" className="hidden lg:block -mb-10" />
       </div>
       <div
         className={`flex flex-col justify-center items-center relative  ${

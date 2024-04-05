@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import Midcomp from "./components/Midcomp";
 import Payroll1 from "./components/Payroll1";
 import Features from "./components/Features";
 import Mobiles from "./components/Mobiles";
@@ -20,6 +21,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <Midcomp/>
       <Payroll1 />
       <Features />
       <Mobiles />

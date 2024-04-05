@@ -7,7 +7,7 @@ import customers from "../images/Home/customers.png";
 function Home() {
   return (
     <div
-      className='h-[100%]  md:h-[39rem] w-full  welcome flex flex-col md:flex-row bg-cover'
+      className="h-[100%]  md:h-[39rem] w-full  welcome flex flex-col md:flex-row bg-cover"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundPosition: "center",
@@ -26,14 +26,14 @@ function Home() {
         </p>
         <button
           type="button"
-          className="text-white bg-[#FC8320] hover:scale-105  rounded-sm text-xs sm:text-xs lg:text-sm px-2 py-2 font-medium sm:px-4 sm:py-2 lg:px-5 lg:py-3 text-center w-48 mx-auto md:mx-0"
+          className="text-white bg-[#FC8320] hover:scale-105  rounded-sm text-xs sm:text-xs lg:text-sm px-2 py-2 font-medium sm:px-4 sm:py-2 lg:px-5 lg:py-3 text-center w-48 mx-0"
         >
           Schedule Demo
         </button>
       </div>
-      <div className="w-[100%] h-[100%] md:w-[55%] md:h-[100%] flex justify-center items-center p-5 md:p-2 relative">
+      <div className="w-[100%] h-[100%] md:w-[55%] md:h-[100%] flex justify-center items-center p-5 md:p-2 relative overflow-hidden">
         <img
-          className="girl_img md:absolute slideInRight sm:w-[18rem] md:w-[20rem] lg:w-[30rem]"
+          className="girl_img md:absolute slideInRight sm:w-[18rem] md:w-[20rem] lg:w-[30rem] bottom-7 lg:bottom-5 -mb-10 md:mb-0"
           src={girl}
           alt="girl"
           style={{ objectFit: "cover", objectPosition: "center" }}
